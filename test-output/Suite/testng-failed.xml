@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.amazonselenium.test.loginTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="resultTest"/>
+          <include name="blankPass"/>
+          <include name="navigateSite"/>
+          <include name="invalidmail"/>
+          <include name="initializeWebDriver"/>
+          <include name="endReport"/>
+          <include name="invalidPass"/>
+          <include name="setExtent"/>
+          <include name="ValidLogin"/>
+          <include name="blankmail"/>
+        </methods>
+      </class> <!-- com.amazonselenium.test.loginTest -->
+      <class name="com.amazonselenium.test.RegisterTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="validregisterUser"/>
+          <include name="resultTest"/>
+          <include name="navigateSite"/>
+          <include name="blankUser"/>
+          <include name="initializeWebDriver"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="invalidMail"/>
+          <include name="blankregisteruser"/>
+          <include name="invalidPass"/>
+        </methods>
+      </class> <!-- com.amazonselenium.test.RegisterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
